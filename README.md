@@ -6,7 +6,7 @@ Base de datos: Latinobarómetro 2023
 Unidad de análisis: Peruanos encuestados
 
 
-Variables independientes
+**Variables independientes**
 
 satis_dem = Satisfacción de los peruanos con la democracia en su país en el año 2023
 
@@ -27,7 +27,7 @@ creencias = ¿Qué frase refleja las creencias de los peruanos en el 2023 con re
 
 
 
-Variables de control
+**Variables de control**
 
 etnia = ¿Con qué raza o etnicidad se identifica mejor?
 -	Unidad de análisis: peruanos encuestados sobre la raza o etnia con la cual se identifican
@@ -59,7 +59,7 @@ partido_pol = Familia Partido Político
 4.	Nationalist Parties
 
 
-Variable dependiente
+**Variable dependiente**
 
 Para la variable dependiente se ha creado el siguiente índice:
 Confianza en las instituciones = ¿Qué tanto confías en las instituciones públicas (Congreso, Gobierno, Presidente, Partidos políticos)?
