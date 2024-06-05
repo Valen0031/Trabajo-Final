@@ -66,10 +66,10 @@ Confianza en las instituciones = ¿Qué tanto confías en las instituciones púb
 
 -	Unidad de análisis: peruanos encuestados sobre la confianza que tienen en las instituciones públicas
 
-No trust = 1
-Little = 2
-Some = 3
-A lot = 4
+1. No trust 
+2. Little 
+3. Some 
+2. A lot 
 
 Este índice está compuesto por las siguientes 4 variables:
 
