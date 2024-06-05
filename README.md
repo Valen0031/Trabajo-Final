@@ -74,10 +74,10 @@ Confianza en las instituciones = ¿Qué tanto confías en las instituciones púb
 Este índice está compuesto por las siguientes 4 variables:
 
 Congreso = Confianza de los peruanos en el Congreso de la República en el 2023
-1.	No trust = 1
-2.	Little = 2
-3.	Some = 3
-4.	A lot = 4
+1.	No trust 
+2.	Little 
+3.	Some 
+4.	A lot 
 
 Partidos _Políticos: Confianza de los peruanos/as en los partidos políticos en el 2023 
 1.	No trust 
