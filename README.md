@@ -85,13 +85,13 @@ Partidos _Políticos: Confianza de los peruanos/as en los partidos políticos en
 3.	Some 
 4.	A lot 
 
-Presidente = Confianza de los peruanos en el Presidente de la República en el 2023
+Presidente: Confianza de los peruanos en el Presidente de la República en el 2023
 1.	No trust
 2.	Little 
 3.	Some 
 4.	A lot
 
-Gobierno = Confianza de los peruanos en el Gobierno en el 2023
+Gobierno: Confianza de los peruanos en el Gobierno en el 2023
 1.	No trust 
 2.	Little 
 3.	Some 
