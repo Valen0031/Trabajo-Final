@@ -5,10 +5,11 @@ Base de datos: Latinobarómetro 2023
 
 Unidad de análisis: Peruanos encuestados
 
+numentre: Número de entrevista 
 
 **Variables independientes**
 
-satis_dem = Satisfacción de los peruanos con la democracia en su país en el año 2023
+satis_dem = Satisfacción de los peruanos con la democracia en el 2023
 
 -	Unidad de análisis: peruanos encuestados sobre la satisfacción de la democracia
 
