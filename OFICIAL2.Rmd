@@ -1,0 +1,43 @@
+---
+title: "Oficial2"
+author: "Valentina Nauchi"
+date: "2024-06-04"
+output: html_document
+---
+
+```{r}
+setwd("C:/Trabajo grupal Tucaloza y Valentini/F00017014-Latinobarometro_2023_Rdata_v1_0 (1)")
+```
+
+
+```{r}
+library(rio)
+data= import("data_exportados_peru.xlsx")
+```
+
+```{r}
+library(dplyr)
+
+data <- data %>% 
+  mutate(suma_nuevo = Congreso + Presidente + Gobierno + Partidos_Politicos) 
+summary(data$suma_nuevo)
+
+data <- data %>% 
+  mutate(conf_inst = ((suma_nuevo - min(suma_nuevo))/(max(suma_nuevo) - min(suma_nuevo))) * 9 + 1)
+
+summary(data$indice_aditivo_nuevo) 
+```
+
+```{r}
+data$satis_dem = as.numeric(data$satis_dem)
+```
+
+
+```{r}
+library(writexl)
+
+data_exportar3 <- data[, c("numentre", "satis_dem", "creenciasS", "etnia", "estrato", "partido_pol", "conf_inst")]
+
+write_xlsx(data_exportar3, "data_final2.xlsx")
+```
+
