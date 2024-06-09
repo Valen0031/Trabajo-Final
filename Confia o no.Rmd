@@ -1,0 +1,30 @@
+---
+title: "Binaria"
+author: "Valentina Nauchi"
+date: "2024-06-09"
+output: html_document
+---
+
+```{r}
+setwd("C:/Binaria")
+```
+
+```{r}
+library(rio)
+data=import("data_final.xlsx")
+data
+```
+```{r}
+library(tidyverse)
+data <- data %>%
+  mutate(confianza_binaria = ifelse(conf_inst >= 8, 1, 0))
+
+# Verificamos los resultados
+table(data$confianza_binaria)
+head(data)
+
+```
+```{r}
+table(data$confianza_binaria)
+```
+
