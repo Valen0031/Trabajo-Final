@@ -54,10 +54,16 @@ estrato = ¿A qué clase social considera que pertenece?
 
 partido_pol = Familia Partido Político
 -	Unidad de análisis: peruanos encuestados sobre su pertenencia a un partido político
-1.	(Vote null / white, Do not vote / none)
-2.	Social Democratic Parties
-3.	Christian Democrat Parties
-4.	Nationalist Parties
+0.	(Vote null / white, Do not vote / none)
+20.	Social Democratic Parties
+30.	Christian Democrat Parties
+40.	Liberal Parties
+50. Christian Democrat Parties 
+60. Conservative Parties 
+70. Nationalist Parties 
+80. Agrarian Parties 
+98. Electoral alliances (diverse origins) 
+
 
 
 **Variable dependiente**
